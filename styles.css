@@ -31,7 +31,7 @@ a, a.author, #new_comment_field, .drag-and-drop, .tabnav-tab {
 div.bg-white, h3.bg-white, .timeline-comment, .drag-and-drop, .review-thread-reply, .previewable-comment-form,
 .comment-form-textarea, .review-thread-reply .inline-comment-form, .branch-action-body, .review-thread-reply-button,
 .commit-tease, table.files, .file-header, .commit-tease-contributors, div.bg-gray-light, .reponav-item.selected,
-.RecentBranches, .merge-message {
+.RecentBranches, .merge-message, .MarketplaceSideNav {
   background-color: #182333 !important;
 }
 
@@ -86,7 +86,7 @@ div.text-gray {
 
 div.border-gray-light, li.border-gray-dark, #new_comment_field, .drag-and-drop, div.border-gray-dark, .comment-form-textarea,
 .review-thread-reply-button, .commit-tease, .file-wrap, .commit-tease-contributors, .file-header, .file, .subnav-item,
-.tabnav, .menu-item, .menu-heading, .RecentBranches {
+.tabnav, .menu-item, .menu-heading, .RecentBranches, .MarketplaceSideNav, div.border-top {
   border-color: #FF4081 !important;
 }
 

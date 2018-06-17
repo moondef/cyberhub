@@ -16,7 +16,7 @@ body {
   color: #00FF9C !important;
 }
 
-a, a.author, #new_comment_field, .drag-and-drop, .tabnav-tab {
+a, a.author, #new_comment_field, .drag-and-drop, .tabnav-tab, .Counter {
   color: #00FF9C !important;
 }
 

@@ -2,7 +2,7 @@
   "manifest_version": 2,
  
   "name": "cyberhub",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Cyberhub theme for Github",
  
   "content_scripts": [{

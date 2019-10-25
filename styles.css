@@ -290,7 +290,7 @@ li.border-bottom {
 }
 
 .Box-row--focus-gray.navigation-focus, .merge-status-item, .thread-subscription-status, .blob-code-addition, .blob-code-deletion,
-.blob-num-addition, .blob-num-deletion {
+.blob-num-addition, .blob-num-deletion, .TimelineItem-break {
   background-color: #182333 !important;
 }
 

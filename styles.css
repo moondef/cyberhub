@@ -16,6 +16,10 @@ body {
   color: #00FF9C !important;
 }
 
+body.bg-gray-light {
+  background-color: #182333 !important;
+}
+
 a, a.author, #new_comment_field, .drag-and-drop, .tabnav-tab, .Counter {
   color: #00FF9C !important;
 }

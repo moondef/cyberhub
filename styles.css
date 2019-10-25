@@ -262,7 +262,8 @@ li.border-bottom {
   border-color: #FF4081 !important;
 }
 
-.timeline-comment-wrapper, .gh-header-title, .gh-header-meta, .gh-header-show, .gh-header {
+.timeline-comment-wrapper, .gh-header-title, .gh-header-meta, .gh-header-show, .gh-header,
+.comment-reactions .user-has-reacted {
   border-color: #182333 !important;
   background-color: #182333 !important;
 }

@@ -68,7 +68,7 @@ div.bg-white, h3.bg-white, .timeline-comment, .drag-and-drop, .review-thread-rep
   color: #00FF9C !important;
 }
 
-a.link-gray-dark, a.link-gray, span.link-gray-dark, span.link-gray, p.text-gray, a.text-gray-dark, span.text-gray-dark {
+a.link-gray-dark, a.link-gray, span.link-gray-dark, div.link-gray-dark, span.link-gray, p.text-gray, a.text-gray-dark, span.text-gray-dark {
   color: #FF4081 !important;
 }
 
@@ -162,6 +162,10 @@ header.Header {
 
 .repo-description>p {
  color: #9F5FFF;
+}
+
+a.muted-link {
+  color: #DADADA !important;
 }
 
 /* Discover */
@@ -258,11 +262,36 @@ li.border-bottom {
   border-color: #FF4081 !important;
 }
 
-.timeline-comment-wrapper {
+.timeline-comment-wrapper, .gh-header-title, .gh-header-meta, .gh-header-show, .gh-header {
   border-color: #182333 !important;
   background-color: #182333 !important;
 }
 
+.comment-body {
+  color: #FFFFFF;
+}
+
+/* Pulls */
+.table-list-header-toggle .btn-link {
+  color: #182333 !important;
+}
+
+.table-list-header-toggle .btn-link.selected {
+  color: #100D23 !important;
+}
+
+.Box-row--focus-gray.navigation-focus, .merge-status-item, .thread-subscription-status, .blob-code-addition, .blob-code-deletion,
+.blob-num-addition, .blob-num-deletion {
+  background-color: #182333 !important;
+}
+
+.blob-code-hunk, .blob-expanded .blob-code, .blob-expanded .blob-num, .blob-num-expandable, .blob-num-hunk {
+  background-color: #100D23 !important;
+}
+
+.blob-num {
+  color: #FFFFFF !important;
+}
 
 /* Repos */
 .repohead.experiment-repo-nav, .tabnav-tab {
@@ -296,12 +325,19 @@ li.border-bottom {
 
 /* Readme */
 #readme {
-  color: #372963;
+  /*color: #372963;*/
+  color: #fff;
 }
 
 #readme a {
   color: #FF4081 !important;
 }
+
+.markdown-body .highlight pre, .markdown-body pre, .markdown-body table td, .markdown-body table th {
+  background-color: #182333 !important;
+}
+
+
 
 /* Code */
 .blob-code-inner {

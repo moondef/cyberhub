@@ -271,6 +271,10 @@ li.border-bottom {
   color: #FFFFFF;
 }
 
+.discussion-sidebar-item .link-gray-dark {
+  color: #FFFFFF !important;
+}
+
 /* Pulls */
 .table-list-header-toggle .btn-link {
   color: #182333 !important;

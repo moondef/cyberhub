@@ -168,6 +168,10 @@ a.muted-link {
   color: #DADADA !important;
 }
 
+div.bg-gray, aside.bg-white {
+  background-color: #182333 !important;
+}
+
 /* Discover */
 a.topic-tag {
   background-color: #FF4081 !important;
@@ -326,6 +330,10 @@ li.border-bottom {
 
 .reponav-item.selected {
   border-top-color: #FF4081 !important;
+}
+
+.text-mono {
+  color: #100D23;
 }
 
 /* Readme */
